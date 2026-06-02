@@ -20,20 +20,20 @@ A scalable Full-Stack application featuring a robust REST API and a modern React
 
 ## .env
 
-PORT=5000
-MONGO_URI=your_mongodb_connection_string
-JWT_SECRET=secret_key
-NODE_ENV=development
+- PORT=5000
+- MONGO_URI=your_mongodb_connection_string
+- JWT_SECRET=secret_key
+- NODE_ENV=development
 
 ## Backend Setup
-cd server
-npm install
+- cd server
+- npm install
 
 ## Start the backend server
 npm run dev
 
 ## Frontend Setup
-cd client
-npm install
-npm run dev
+- cd client
+- npm install
+- npm run dev
 
