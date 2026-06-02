@@ -18,7 +18,22 @@ A scalable Full-Stack application featuring a robust REST API and a modern React
 
 ## ⚙️ Local Setup & Installation
 
-### 1. Clone the repository
-```bash
-git clone [https://github.com/shashi2012/Notes_Management.git](https://github.com/shashi2012/Notes_Management.git)
-cd Notes_Management
+## .env
+
+PORT=5000
+MONGO_URI=your_mongodb_connection_string
+JWT_SECRET=secret_key
+NODE_ENV=development
+
+## Backend Setup
+cd server
+npm install
+
+## Start the backend server
+npm run dev
+
+## Frontend Setup
+cd client
+npm install
+npm run dev
+
